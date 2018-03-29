@@ -23,7 +23,7 @@ var addNewUserToDatabaseAsync = function(user) {
     });
 };
 
-addNewUserToDatabaseAsync({ name: 'Dan', password: 'chickennuggets' })
+addNewUserToDatabaseAsync({ name: 'Jenn', password: 'mcdonalds' })
   .then(function(savedUser) {
     console.log('All done!');
   })

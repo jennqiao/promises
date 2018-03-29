@@ -32,6 +32,7 @@ describe('Promisification', function() {
 
       getGitHubProfileAsync('someRealUser')
         .then(function(profile) {
+          console.log('profile', profile);
           expect(profile.id).to.equal(12345);
           done();
         })
